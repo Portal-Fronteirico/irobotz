@@ -1,0 +1,260 @@
+<% provide :title, "IRobots - São Borja" %>
+<% provide :description, 'O Primeiro grupo de Robótica de São Borja' %>
+<% provide :keywords, '#sãoborja #portalfronteirico #iriobots #robotica #saoborja' %>
+<% provide :ld_json, {
+  "schema": ""
+} %>
+
+<section id="presenter">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <nav id='main-navigation' class='text-center'>
+          <ul class="list-unstyled list-inline">
+            <li><%= link_to 'Notícias', '#latest-news' %></li>
+            <li><%= link_to 'A Equipe', '#team' %></li>
+            <li><%= link_to 'Projetos', '#modalities' %></li>
+            <li><%= link_to 'Doações', '#donate' %></li>
+            <li><%= link_to 'Patrocinadores', '#sponsors' %></li>
+            <li><%= link_to 'Contato', '#footer' %></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="latest-news">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="row text-center">
+          <h2 class="bold uppercase">Ultimas notícias</h2>
+          <%= link_to '', class: 'btn btn-primary btn-lg top' do %>
+            <i class="fab fa-neos"></i> Ver Todas
+          <% end %>
+          <hr>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="team">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="row">
+          <div class="col-md-6">
+            <%= image_tag('', class: '') %>
+            <div class="jumbotron" style="height: 420px;"></div>
+          </div>
+
+          <div class="col-md-6">
+            <h2 class='bold'>A Equipe</h2>
+            <hr>
+
+            <p>A Equipe de <span class='bold'>Robótica de São Borja</span>,
+            foi fundada em 2020, dando origem ao <%= 'IRobotz' %></p>
+
+            <p>Orientado por Renato Rosa Franco, o grupo surgiu com
+            propósitos de desenvolver mecanismos robóticos que serão
+            postos à prova contra outros projetos em competições nacionais
+            e internacionais, obtendo destaque relevante no cenário mundial
+            da robótica.</p>
+
+            <p>Na equipe, os membros têm a oportunidade de ter um contato
+            mais próximo com a engenharia, que engloba o conhecimento tecnico
+            através da manipulação de alta tecnologia, e também da gestão de
+            membros, desenvolvendo o espirito de equipe, o conceito de liderança
+            e aprendendo a resolver problemas.</p>
+
+            <br>
+            <ul class='list-unstyled list-inline'>
+              <li>
+                <%= link_to members_path,
+                  class: 'btn btn-primary btn-lg top' do %>
+                  Membros
+                <% end %>
+              </li>
+              <li>
+                <%= link_to workshop_path,
+                  class: 'btn btn-primary btn-lg top' do %>
+                  Oficina
+                <% end %>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="modilities">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="row">
+          <div class="col-md-6">
+            <div class='text-center'>
+              <%= image_tag('', class: '') %>
+              <div class="jumbotron"></div>
+              <h2 class='bold'>Programação</h2>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class='text-center'>
+              <%= image_tag('', class: '') %>
+              <div class="jumbotron"></div>
+              <h2 class='bold'>Design</h2>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class='text-center'>
+              <%= image_tag('', class: '') %>
+              <div class="jumbotron"></div>
+              <h2 class='bold'>Robótica</h2>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class='text-center'>
+              <%= image_tag('', class: '') %>
+              <div class="jumbotron"></div>
+              <h2 class='bold'>Eletrônica</h2>
+            </div>
+          </div>
+
+          <div class="col-md-offset-3 col-md-6">
+            <div class="text-center">
+              <%= image_tag('', class: '') %>
+              <div class="jumbotron"></div>
+              <h2 class="bold">Mecatrônica</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="donate">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="row">
+          <div class="col-md-8">
+            <div class="row">
+              <div class="col-md-6">
+                <%= image_tag('', class: '') %>
+              </div>
+
+              <div class="col-md-6">
+                <div class='text-center'>
+                  <h3>Ajude a IRobots a ir ainda mais longe!</h3>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class='text-center'>
+                <h1>Contribuia com qualquer valor!</h1>
+                <h4>com <%= image_tag('', class: '') %></h4>
+              </div>
+            </div>
+
+            <div class="row">
+              <%= image_tag('', class: '') %>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+             <h2 class="bold">
+               <i class=""></i>
+               IRobot Doações
+             </h2>
+
+             <p>A Iniciativa IRobots foi criada de forma
+             conectar membros da comunidade que possuam interesse ou paixão
+             por engenharia, robótica ou computação e todos aqueles que tenham
+             interesse em trabalhos e projetos desenvolvidos pela IRobots.</p>
+
+            <p>A Fim de potencializar os projetos e a participação
+            da equipe em competições presentes e futuras, fora criado um canal
+            para receber doações únicas. Todo dinheiro arrecadado é destinado
+            a melhorias nos projetos ou para possibilitar a participação em
+            eventos internacionais Todos os doadores recebem um feedback do
+            andamento dos projetos e prestação dos gastos executados.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="sponsors">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2 class='bold text-center'>Patrocinadores</h2>
+        <hr>
+
+        <div class="row">
+          <div class="col-md-2">
+            <div class="jumbotron"></div>
+          </div>
+
+          <div class="col-md-2">
+            <div class="jumbotron"></div>
+          </div>
+
+          <div class="col-md-2">
+            <div class="jumbotron"></div>
+          </div>
+
+          <div class="col-md-2">
+            <div class="jumbotron"></div>
+          </div>
+
+          <div class="col-md-2">
+            <div class="jumbotron"></div>
+          </div>
+
+          <div class="col-md-2">
+            <div class="jumbotron"></div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-2">
+            <div class="jumbotron"></div>
+          </div>
+
+          <div class="col-md-2">
+            <div class="jumbotron"></div>
+          </div>
+
+          <div class="col-md-2">
+            <div class="jumbotron"></div>
+          </div>
+
+          <div class="col-md-2">
+            <div class="jumbotron"></div>
+          </div>
+
+          <div class="col-md-2">
+            <div class="jumbotron"></div>
+          </div>
+
+          <div class="col-md-2">
+            <div class="jumbotron"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

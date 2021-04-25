@@ -1,0 +1,389 @@
+<%= provide :title, 'Equipe - IRobotz' %>
+<%= provide :description, 'Conheça a equipe que está por trás do IRobotz' %>
+<%= provide :keywords, '#saoborja #portalfronteirico #irobotz #robótica #computacao' %>
+<%= provide :ld_json, {
+  "schema": "ld-json"
+} %>
+
+<section id="presenter">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="members">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1 class='bold text-center'>
+          <i class="fab fa-teamspeak" style='font-size: 70px;'></i> <br>
+          Membros</h1>
+        <hr>
+
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <div class="row">
+              <div class="col-md-6">
+                <h4 class='bold'>IRobotz</h4>
+              </div>
+              <div class="col-md-6 text-right">
+                <nav id='menu-navigation'>
+                  <ul class="list-unstyled list-inline" style='padding-top: 10px;'>
+                    <li>
+                      <%= link_to root_path do %>
+                        Inicio
+                      <% end %>
+                    </li>
+                    <li>
+                      <%= link_to "#{root_path}" do %>
+                        Notícias
+                      <% end %>
+                    </li>
+                    <li>
+                      <%= link_to '#{root_path}' do %>
+                        Projetos
+                      <% end %>
+                    </li>
+                    <li>
+                      <%= link_to '' do %>
+                        Áreas
+                      <% end %>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+          </div>
+          <div class="panel-body">
+
+            <div class="col-md-3 member">
+              <div class="panel panel-default">
+                <div class="panel-body text-center">
+                  <%= image_tag('avatars/laura1.jpg', class: 'avatar') %>
+
+                  <h3 class='bold'>Renato</h3>
+                  <h6>Renato Rosa Franco</h6>
+                  <p>
+                    <span class='bold'>
+                      Ano de Ingresso:
+                    </span>
+                    2021
+                  </p>
+                  <p class='area'>
+                    <i class="fas fa-code"></i>
+                    Computação
+                  </p>
+
+                  <br>
+                  <p class='role bold'>
+                    Capitão Geral
+                  </p>
+
+                  <div id="social">
+                    <ul class='list-unstyled list-inline'>
+                      <li>
+                        <%= link_to 'https://github.com/' do %>
+                          <i class="fab fa-github"></i>
+                        <% end %>
+                      </li>
+                      <li>
+                        <%= link_to 'https://instagram.com/' do %>
+                          <i class="fab fa-instagram"></i>
+                        <% end %>
+                      </li>
+                      <li>
+                        <%= link_to 'https://facebook.com/' do %>
+                          <i class="fab fa-facebook-square"></i>
+                        <% end %>
+                      </li>
+                      <li>
+                        <%= link_to 'mailto' do %>
+                          <i class="far fa-envelope"></i>
+                        <% end %>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 member">
+              <div class="panel panel-default">
+                <div class="panel-body text-center">
+                  <%= image_tag('avatars/laura1.jpg', class: 'avatar') %>
+
+                  <h3 class='bold'>Renato</h3>
+                  <h6>Renato Rosa Franco</h6>
+                  <p>
+                    <span class='bold'>
+                      Ano de Ingresso:
+                    </span>
+                    2021
+                  </p>
+                  <p class='area'>
+                    <i class="fas fa-cogs"></i>
+                    Mecânica
+                  </p>
+
+                  <br>
+                  <p class='role bold'>
+                    Capitão de Área
+                  </p>
+
+                  <div id="social">
+                    <ul class='list-unstyled list-inline'>
+                      <li>
+                        <%= link_to 'https://github.com/' do %>
+                          <i class="fab fa-github"></i>
+                        <% end %>
+                      </li>
+                      <li>
+                        <%= link_to 'https://instagram.com/' do %>
+                          <i class="fab fa-instagram"></i>
+                        <% end %>
+                      </li>
+                      <li>
+                        <%= link_to 'https://facebook.com/' do %>
+                          <i class="fab fa-facebook-square"></i>
+                        <% end %>
+                      </li>
+                      <li>
+                        <%= link_to 'mailto' do %>
+                          <i class="far fa-envelope"></i>
+                        <% end %>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 member">
+              <div class="panel panel-default">
+                <div class="panel-body text-center">
+                  <%= image_tag('avatars/laura1.jpg', class: 'avatar') %>
+
+                  <h3 class='bold'>Renato</h3>
+                  <h6>Renato Rosa Franco</h6>
+                  <p>
+                    <span class='bold'>
+                      Ano de Ingresso:
+                    </span>
+                    2021
+                  </p>
+                  <p class='area'>
+                    <i class="fas fa-bolt"></i>
+                    Elétrica
+                  </p>
+
+                  <br>
+                  <p class='role bold'>
+                    Capitão de Área
+                  </p>
+
+                  <div id="social">
+                    <ul class='list-unstyled list-inline'>
+                      <li>
+                        <%= link_to 'https://github.com/' do %>
+                          <i class="fab fa-github"></i>
+                        <% end %>
+                      </li>
+                      <li>
+                        <%= link_to 'https://instagram.com/' do %>
+                          <i class="fab fa-instagram"></i>
+                        <% end %>
+                      </li>
+                      <li>
+                        <%= link_to 'https://facebook.com/' do %>
+                          <i class="fab fa-facebook-square"></i>
+                        <% end %>
+                      </li>
+                      <li>
+                        <%= link_to 'mailto' do %>
+                          <i class="far fa-envelope"></i>
+                        <% end %>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 member">
+              <div class="panel panel-default">
+                <div class="panel-body text-center">
+                  <%= image_tag('avatars/laura1.jpg', class: 'avatar') %>
+
+                  <h3 class='bold'>Renato</h3>
+                  <h6>Renato Rosa Franco</h6>
+                  <p>
+                    <span class='bold'>
+                      Ano de Ingresso:
+                    </span>
+                    2021
+                  </p>
+                  <p class='area'>
+                    <i class="fas fa-paint-brush"></i>
+                    Design & Marketing
+                  </p>
+
+                  <br>
+                  <p class='role bold'>
+                    Capitão Geral
+                  </p>
+
+                  <div id="social">
+                    <ul class='list-unstyled list-inline'>
+                      <li>
+                        <%= link_to 'https://github.com/' do %>
+                          <i class="fab fa-github"></i>
+                        <% end %>
+                      </li>
+                      <li>
+                        <%= link_to 'https://instagram.com/' do %>
+                          <i class="fab fa-instagram"></i>
+                        <% end %>
+                      </li>
+                      <li>
+                        <%= link_to 'https://facebook.com/' do %>
+                          <i class="fab fa-facebook-square"></i>
+                        <% end %>
+                      </li>
+                      <li>
+                        <%= link_to 'mailto' do %>
+                          <i class="far fa-envelope"></i>
+                        <% end %>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 member">
+              <div class="panel panel-default">
+                <div class="panel-body text-center">
+                  <%= image_tag('avatars/laura1.jpg', class: 'avatar') %>
+
+                  <h3 class='bold'>Renato</h3>
+                  <h6>Renato Rosa Franco</h6>
+                  <p>
+                    <span class='bold'>
+                      Ano de Ingresso:
+                    </span>
+                    2021
+                  </p>
+                  <p class='area'>
+                    <i class="far fa-handshake"></i>
+                    Administrativo
+                  </p>
+
+                  <br>
+                  <p class='role bold'>
+                    Capitão Geral
+                  </p>
+
+                  <div id="social">
+                    <ul class='list-unstyled list-inline'>
+                      <li>
+                        <%= link_to 'https://github.com/' do %>
+                          <i class="fab fa-github"></i>
+                        <% end %>
+                      </li>
+                      <li>
+                        <%= link_to 'https://instagram.com/' do %>
+                          <i class="fab fa-instagram"></i>
+                        <% end %>
+                      </li>
+                      <li>
+                        <%= link_to 'https://facebook.com/' do %>
+                          <i class="fab fa-facebook-square"></i>
+                        <% end %>
+                      </li>
+                      <li>
+                        <%= link_to 'mailto' do %>
+                          <i class="far fa-envelope"></i>
+                        <% end %>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 member">
+              <div class="panel panel-default">
+                <div class="panel-body text-center">
+                  <%= image_tag('avatars/laura1.jpg', class: 'avatar') %>
+
+                  <h3 class='bold'>Renato</h3>
+                  <h6>Renato Rosa Franco</h6>
+                  <p>
+                    <span class='bold'>
+                      Ano de Ingresso:
+                    </span>
+                    2021
+                  </p>
+                  <p class='area'>
+                    <i class="fas fa-robot"></i>
+                    Mecatrônica
+                  </p>
+
+                  <br>
+                  <p class='role bold'>
+                    Capitão Geral
+                  </p>
+
+                  <div id="social">
+                    <ul class='list-unstyled list-inline'>
+                      <li>
+                        <%= link_to 'https://github.com/' do %>
+                          <i class="fab fa-github"></i>
+                        <% end %>
+                      </li>
+                      <li>
+                        <%= link_to 'https://instagram.com/' do %>
+                          <i class="fab fa-instagram"></i>
+                        <% end %>
+                      </li>
+                      <li>
+                        <%= link_to 'https://facebook.com/' do %>
+                          <i class="fab fa-facebook-square"></i>
+                        <% end %>
+                      </li>
+                      <li>
+                        <%= link_to 'mailto' do %>
+                          <i class="far fa-envelope"></i>
+                        <% end %>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 member">
+              <div class="panel panel-default">
+                <div class="panel-body text-center">
+                  <%= image_tag('', class: '') %>
+                  <h3 class='bold'>Você</h3>
+                  <p>Entre para nossa equipe!</p>
+
+                  <%= link_to '',
+                  class: 'btn btn-primary btn-lg top' do %>
+                    Quero Participar
+                  <% end %>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

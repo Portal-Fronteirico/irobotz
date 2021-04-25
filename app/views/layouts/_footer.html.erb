@@ -1,0 +1,87 @@
+<footer id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="row">
+          <div class="col-md-6">
+            <div class='col-md-6'>
+              <h3 class='bold'>Contato</h3>
+              <hr>
+              <p>
+                <i class="far fa-envelope"></i>
+                contato@irobotz.com.br
+              </p>
+
+              <p>
+                <i class="fas fa-phone"></i>
+                (55) 11 98784-8774
+              </p>
+
+              <p>
+                <i class="fas fa-phone"></i>
+                (55) 44 87997-7987
+              </p>
+
+              <br>
+              <h3 class='bold'>Membro Oficial</h3>
+              <%= image_tag('', class: '') %>
+            </div> <!-- col-md-6 -->
+
+            <div class="col-md-6">
+              <div class="col-md-12" id='social'>
+                <h3 class='bold'>Social:</h3>
+                <hr>
+                <ul class="list-unstyled list-inline">
+                  <li>
+                    <%= link_to 'https://facebook.com/portalfronteirico' do %>
+                      <i class="fab fa-facebook-square"></i>
+                    <% end %>
+                  </li>
+                  <li>
+                    <%= link_to 'https://youtube.com/portalfronteirico' do %>
+                      <i class="fab fa-youtube"></i>
+                    <% end %>
+                  </li>
+                  <li>
+                    <%= link_to 'https://instagram.com/portalfronteirico' do %>
+                      <i class="fab fa-instagram"></i>
+                    <% end %>
+                  </li>
+                  <li>
+                    <%= link_to 'https://github.com/portalfronteirico' do %>
+                      <i class="fab fa-github"></i>
+                    <% end %>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="col-md-12" id='address'>
+              <h3 class='bold'>Endereço:</h3>
+              <hr>
+              <p>R. General Osório, 2215 - Apto 301</p>
+              <p>São Borja - Rio Grande do Sul</p>
+              <p>CEP: 97670-000</p>
+              </div>
+            </div> <!-- col-md-6 -->
+          </div><!--- col-md-5 -->
+
+          <div class="col-md-6" id='location'>
+            <%= render partial: 'shared/location-map' %>
+          </div><!-- col-md-7 -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section id="copyright">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <hr>
+          <h4 class='bold'>&copy <%= Date.today.year %> Equipe Irobotz de Robótica</h4>
+          <p>Veja este projeto no <i class="fab fa-github"></i> Github</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</footer>
